@@ -41,3 +41,12 @@ authorization:
   require_authentication: false
   preview_directives: 
     enabled: true
+
+preview_persisted_queries:
+  enabled: true
+  safelist: 
+    enabled: true
+    require_id: false
+apq:
+  enabled: false
+
